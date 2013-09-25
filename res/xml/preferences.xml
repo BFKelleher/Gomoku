@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2011 Brian Kelleher
+This file is part of ConnectFive.
+
+ConnectFive is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+ConnectFive is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with ConnectFive.  If not, see <http://www.gnu.org/licenses/>.-->
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:summaryOn="@string/blackatton" android:title="@string/blackallowthreethree" android:selectable="true" android:summaryOff="@string/blackattoff" android:key="black_allow_three_three" android:defaultValue="false" android:enabled="true"></CheckBoxPreference>
+    <CheckBoxPreference android:key="white_allow_three_three" android:title="@string/whiteallowthreethree" android:selectable="true" android:enabled="true" android:summaryOff="@string/whiteattoff" android:summaryOn="@string/whiteatton" android:defaultValue="true"/>
+    <CheckBoxPreference android:key="black_allow_four_four" android:title="@string/blackallowfourfour" android:selectable="true" android:enabled="true" android:summaryOff="@string/blackaffoff" android:summaryOn="@string/blackaffon" android:defaultValue="false"/>
+    <CheckBoxPreference android:key="white_allow_four_four" android:title="@string/whiteallowfourfour" android:summaryOff="@string/whiteaffoff" android:summaryOn="@string/whiteaffon" android:defaultValue="true"/>
+    
+</PreferenceScreen>

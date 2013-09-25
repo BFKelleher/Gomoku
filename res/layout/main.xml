@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2011 Brian Kelleher
+This file is part of ConnectFive.
+
+ConnectFive is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+ConnectFive is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with ConnectFive.  If not, see <http://www.gnu.org/licenses/>.-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="25dip" android:id="@+id/tv" android:text="@string/blackturn"></TextView>
+
+    <TableLayout android:id="@+id/table" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center">
+    </TableLayout>
+
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/slot" android:orientation="vertical"></LinearLayout>
+</LinearLayout>

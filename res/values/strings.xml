@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2011 Brian Kelleher
+This file is part of ConnectFive.
+
+ConnectFive is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+ConnectFive is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with ConnectFive.  If not, see <http://www.gnu.org/licenses/>.-->
+<resources>
+    <string name="hello">Hello World, ConnectFiveActivity!</string>
+    <string name="app_name">ConnectFive</string>
+    <string name="reset">Reset</string>
+    <string name="undo">Undo</string>
+    <string name="blackturn">Black\'s Turn</string>
+    <string name="whiteturn">White\'s Turn</string>
+    <string name="blackwin">Black Wins</string>
+    <string name="whitewin">White Wins</string>
+    <string name="sure">Are you sure?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="won">Somebody won. You need to reset.</string>
+    <string name="pref">Preferences</string>
+    <string name="notdone">This feature is coming soon!</string>
+    <string name="blackallowthreethree">Allow Black Three-Three</string>
+    <string name="whiteallowthreethree">Allow White Three-Three</string>
+    <string name="blackatton">Black is allowed to get a three-three.</string>
+    <string name="blackattoff">Black is not allowed to get a three-three.</string>
+    <string name="whiteatton">White is allowed to get a three-three.</string>
+    <string name="whiteattoff">White is not allowed to get a three-three.</string>
+    <string name="changedpref">A preference has changed. You must reset.</string>
+    <string name="blackallowfourfour">Allow Black Four-Four</string>
+    <string name="whiteallowfourfour">Allow White Four-Four</string>
+    <string name="blackaffon">Black is allowed to get a four-four.</string>
+    <string name="blackaffoff">Black is not allowed to get a four-four.</string>
+    <string name="whiteaffon">White is allowed to get a four-four.</string>
+    <string name="whiteaffoff">White is not allowed to get a four-four.</string>
+    <string name="goboardattr">Go board by David Benbennick.</string>
+    <string name="about">About</string>
+    <string name="aboutText">ConnectFive written by Brian Kelleher. Copyright 2011&#8211;2012.\nGo Board drawn by David Benbennick. Copyright 2008.</string>
+    <string name="useai">Toggle AI</string>
+    <string name="aiIs">AI is&#160;</string>
+    <string name="on">AI is on.</string>
+    <string name="off">AI is off.</string>
+    <string name="loading">Loading&#8230;</string>
+</resources>
